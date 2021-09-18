@@ -1,0 +1,269 @@
+{
+    "expand": "schema,names",
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Seeing double screen views on the homescreen "
+            },
+            "id": "42750",
+            "key": "STREET-2393",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42750"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Update CS library version to 4.6.1"
+            },
+            "id": "42747",
+            "key": "STREET-2391",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42747"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Remove opt-out for Content Square SDK Implementation "
+            },
+            "id": "42746",
+            "key": "STREET-2390",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42746"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Ensure we're showing the opt-in modal for App Tracking request at least once to users regardless of previous onboarding state"
+            },
+            "id": "42690",
+            "key": "STREET-2378",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42690"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "KBA modal is not loading questionnaire "
+            },
+            "id": "42559",
+            "key": "STREET-2377",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42559"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] user not being prompted to approve change to deposit limit after cooloff period"
+            },
+            "id": "42357",
+            "key": "STREET-2267",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42357"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "Lexis Nexis Threat Metrix call returns with missing fields "
+            },
+            "id": "42232",
+            "key": "STREET-2259",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42232"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW]: Transaction History not displaying data from date filter"
+            },
+            "id": "42122",
+            "key": "STREET-2248",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42122"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Transaction History not displaying data from date filter"
+            },
+            "id": "42121",
+            "key": "STREET-2247",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42121"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Continue button disappears when you change (decrease) vertical size"
+            },
+            "id": "41632",
+            "key": "STREET-2228",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41632"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] IL In-Person Styling (Various)"
+            },
+            "id": "34537",
+            "key": "STREET-2226",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/34537"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Error message text format is not uniform when changing the preference "
+            },
+            "id": "41289",
+            "key": "STREET-2180",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41289"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] user able to enter non number characters and more than 6 characters into 2FA code box"
+            },
+            "id": "41029",
+            "key": "STREET-2156",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41029"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] IN T&Cs contains broken links to RG/PP page"
+            },
+            "id": "40769",
+            "key": "STREET-2139",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40769"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "Update Password Requirement Fields on the Change Password Page"
+            },
+            "id": "40880",
+            "key": "STREET-2138",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40880"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] In-Person Warning during First App Open in IL does not appear"
+            },
+            "id": "40583",
+            "key": "STREET-2104",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40583"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Remember my Username"
+            },
+            "id": "40561",
+            "key": "STREET-2099",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40561"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Remember my Username"
+            },
+            "id": "40559",
+            "key": "STREET-2097",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40559"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Remember my Username"
+            },
+            "id": "40558",
+            "key": "STREET-2096",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40558"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Registration - SmartyStreets - Label"
+            },
+            "id": "40366",
+            "key": "STREET-2066",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40366"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]  Update Pre-check Messages"
+            },
+            "id": "39928",
+            "key": "STREET-2050",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39928"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND][Zendesk] Update Pre-check Messages"
+            },
+            "id": "39926",
+            "key": "STREET-2048",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39926"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[IOS]Make Long pressing on a back button display Context Menu"
+            },
+            "id": "39167",
+            "key": "STREET-1976",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39167"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "Open Dropdown Appears Above Header On Scroll"
+            },
+            "id": "38908",
+            "key": "STREET-1968",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38908"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] integrate with updated email validation"
+            },
+            "id": "36903",
+            "key": "STREET-1843",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36903"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] integrate with updated email validation"
+            },
+            "id": "36902",
+            "key": "STREET-1842",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36902"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] integrate with updated email validation"
+            },
+            "id": "36901",
+            "key": "STREET-1841",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36901"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] West Virginia Header"
+            },
+            "id": "36245",
+            "key": "STREET-1780",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36245"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] West Virginia RG/PP Page"
+            },
+            "id": "36219",
+            "key": "STREET-1778",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36219"
+        }
+    ],
+    "maxResults": 100,
+    "startAt": 0,
+    "total": 29
+}
