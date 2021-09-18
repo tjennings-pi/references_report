@@ -19,5 +19,5 @@ for key in temp:
 
 
 time = datetime.datetime.now() - start_time
-with open('result2.txt', 'a') as r:
+with open('./test_text_files/result2.txt', 'a') as r:
         r.write("\n" + str(time) + ", N/A")

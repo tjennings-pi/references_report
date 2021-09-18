@@ -41,20 +41,20 @@ def get_testrail_data(cases):
                     jira_tc[j].append(cases[i]["id"])
 
     # this is just to help me see what the response from testrail looks like
-    with open('test1.txt', 'w') as f:
+    with open('./test_text_files/test1.txt', 'w') as f:
         for item in cases:
             f.write("%s\n" % item)
 
     jsonString = json.dumps(cases)
     #print(jsonString)
     case = json.dumps(json.loads(jsonString), sort_keys=True, indent=4, separators=(",", ": "))
-    f = open("test2.txt", "w")
+    f = open("./test_text_files/test2.txt", "w")
     f.write(case)
     f.close()
 
     # print all test cases and their references to a text doc
     # prob wanna work on getting this into a dataframe or csv
-    with open('test3.txt', 'w') as g:
+    with open('./test_text_files/test3.txt', 'w') as g:
         g.write(json.dumps(json.loads(json.dumps(jira_tc)), sort_keys=True, indent=4, separators=(",", ": ")))
 
     return jira_tc
@@ -65,7 +65,5 @@ def timing_results():
     tc_data = get_testrail_data(tr_cases)
     time = datetime.datetime.now() - start_time
 
-    with open('result.txt', 'a') as r:
+    with open('./test_text_files/result.txt', 'a') as r:
         r.write("\n" + str(time) + ", return jira_tc instead of tc_jira")
-
-timing_results()

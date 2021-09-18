@@ -156,7 +156,7 @@ def get_jira_data():
       holder = json.loads(response.text)
       # this is just to help me see what the response looks like
       result = json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": "))
-      f = open("test.txt", "w")
+      f = open("./test_text_files/test.txt", "w")
       f.write(result)
       f.close()
 
@@ -184,7 +184,7 @@ def get_jira_data():
             summary_list.append(holder["issues"][i].get('fields').get('summary'))
             d[holder["issues"][i].get('key')] = holder["issues"][i].get('fields').get('summary')
 
-   with open('test1_1.txt', 'w') as g:
+   with open('./test_text_files/test1_1.txt', 'w') as g:
       g.write(json.dumps(json.loads(json.dumps(d)), sort_keys=True, indent=4, separators=(",", ": ")))
    
    return d
