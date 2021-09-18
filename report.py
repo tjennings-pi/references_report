@@ -5,6 +5,8 @@ import datetime
 
 start_time = datetime.datetime.now()
 jira_d = get_jira_data()
+if jira_d == 0:
+    exit(0)
 tr_cases = get_tr_cases()
 tc_d = get_testrail_data(tr_cases)
 
