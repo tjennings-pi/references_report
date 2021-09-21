@@ -4,374 +4,671 @@
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Verify Location View Sporadically Blocking Wager Button"
+                "summary": "[iOS]: To Score is not broken up into \"Yes/No\" for Soccer"
             },
-            "id": "43752",
-            "key": "JAZZ-1546",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/43752"
+            "id": "43315",
+            "key": "JAZZ-1521",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/43315"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND]: Top half of homepage does not go up when scrolling through live tab"
+                "summary": "[AND] User is not being prompted for Play Store Reviews"
             },
-            "id": "43676",
-            "key": "JAZZ-1542",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/43676"
+            "id": "43312",
+            "key": "JAZZ-1520",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/43312"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Incompatible bet legs error text padding"
+                "summary": "[AND] Promos with CTA deeplinks not showing intermediate screen"
             },
-            "id": "42959",
-            "key": "JAZZ-1497",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42959"
+            "id": "43198",
+            "key": "JAZZ-1514",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/43198"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND]: Implement Parlay Pop-up on Boost Screen"
+                "summary": "[WWW] Scorer Bet Offer outcomes not appearing"
             },
-            "id": "42892",
-            "key": "JAZZ-1491",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42892"
+            "id": "42835",
+            "key": "JAZZ-1504",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42835"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS]: Implement Parlay Pop-up on Boost Screen"
+                "summary": "[iOS] Cutting off criterion label after 2 lines for BSE "
             },
-            "id": "42891",
-            "key": "JAZZ-1490",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42891"
+            "id": "42862",
+            "key": "JAZZ-1487",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42862"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Investigate why \"Couldn't load page\" error would show up on league detail page"
+                "summary": "[AND] Active Bet Slip showing incorrect criterion information for Double Chance Bet Offer Type"
             },
-            "id": "42765",
-            "key": "JAZZ-1482",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42765"
+            "id": "41813",
+            "key": "JAZZ-1477",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41813"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Update bet offer button logic to use the button without opting-in"
+                "summary": "[iOS] The Arizona header is showing Barstool Sportsbook & Casino. "
             },
-            "id": "42736",
-            "key": "JAZZ-1475",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42736"
+            "id": "42689",
+            "key": "JAZZ-1476",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42689"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Update bet offer button logic to use the button without opting-in"
+                "summary": "[iOS] TOP X is missing from Finishing Position Bet offer type title - Production "
             },
-            "id": "42735",
-            "key": "JAZZ-1474",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42735"
+            "id": "41821",
+            "key": "JAZZ-1463",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41821"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Update bet offer button logic to use the button without opting-in"
+                "summary": "[iOS]: Rebuild dev with updated KMM snapshot fixes for customization of event categories to avoid app crashes"
             },
-            "id": "42725",
-            "key": "JAZZ-1473",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42725"
+            "id": "42575",
+            "key": "JAZZ-1454",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42575"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND]: Update KMM for quickbet to the latest version "
+                "summary": "[iOS] Homepage Promo CTA showing number of Promo Banners, not total amount of promos"
             },
-            "id": "42676",
-            "key": "JAZZ-1461",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42676"
+            "id": "41723",
+            "key": "JAZZ-1450",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41723"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Missing comma in the cash out button for values greater than $1,000 "
+                "summary": "[WWW] Header cut off on Single Event Page"
             },
-            "id": "42662",
-            "key": "JAZZ-1460",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42662"
+            "id": "42168",
+            "key": "JAZZ-1449",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42168"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Dynamic dropshadow on League headers when they stick and content scrolls behind"
+                "summary": "[WWW] We shouldn't be showing Parlay+ badging on Promotions page"
             },
-            "id": "42345",
-            "key": "JAZZ-1440",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42345"
+            "id": "42317",
+            "key": "JAZZ-1448",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42317"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Update Opt-in Logic for Cash Required Modal"
+                "summary": "[iOS] 'Yes / No' outcomes is missing next to the players name under \"To Score\" offer"
             },
-            "id": "42316",
-            "key": "JAZZ-1437",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42316"
+            "id": "42337",
+            "key": "JAZZ-1447",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42337"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS]  Pitcher names in the Event page header"
+                "summary": "[AND] Incorrect Selected Outcomes Design"
             },
-            "id": "42175",
-            "key": "JAZZ-1430",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42175"
+            "id": "41572",
+            "key": "JAZZ-1446",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41572"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW]  Pitcher names in the Event page header"
+                "summary": "[iOS] 'Not supported' appearing on bet offers "
             },
-            "id": "42174",
-            "key": "JAZZ-1429",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42174"
+            "id": "42362",
+            "key": "JAZZ-1445",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42362"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW]  Pitcher names on Home/League/Live 6-tile event cards"
+                "summary": "[AND] Reverse the outcome grouping labels for Tennis - Correct Score Set X"
             },
-            "id": "42173",
-            "key": "JAZZ-1428",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42173"
+            "id": "41965",
+            "key": "JAZZ-1444",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41965"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS]  Pitcher names on Home/League/Live 6-tile event cards"
+                "summary": "[WWW]  Cash Required Modal is using wallet balance instead of cash balance "
             },
-            "id": "42172",
-            "key": "JAZZ-1427",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42172"
+            "id": "42308",
+            "key": "JAZZ-1439",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42308"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Pitcher names in the Event page header"
+                "summary": "[AND] Cash Required Modal is using wallet balance instead of cash balance "
             },
-            "id": "41972",
-            "key": "JAZZ-1414",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41972"
+            "id": "42307",
+            "key": "JAZZ-1438",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42307"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Pitcher names on Home/League/Live 6-tile event cards"
+                "summary": "[iOS] - Event odds for Parlay bets are not showing up on Active and Settled tabs in the betslip "
             },
-            "id": "41971",
-            "key": "JAZZ-1413",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41971"
+            "id": "42129",
+            "key": "JAZZ-1424",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/42129"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Haptic Feedback Upon Successful Promo Opt-in"
+                "summary": "[WWW] Active Bet Slip showing incorrect criterion information for Double Chance bet offer type"
             },
-            "id": "41963",
-            "key": "JAZZ-1411",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41963"
+            "id": "41814",
+            "key": "JAZZ-1422",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41814"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW]: Implement UI Treatment for delayed Geo-Location on Quick Pick 6 Wager CTA"
+                "summary": "[WWW] Fix high occurring errors (Cannot read property length of undefined)"
             },
-            "id": "41938",
-            "key": "JAZZ-1400",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41938"
+            "id": "41997",
+            "key": "JAZZ-1418",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41997"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW]: Implement UI Treatment for delayed Geo-Location on Standard Betslip"
+                "summary": "[WWW] Evolution First Person Lightning Roulette LGP Screen Freezes/Never Loads "
             },
-            "id": "41934",
-            "key": "JAZZ-1396",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41934"
+            "id": "41840",
+            "key": "JAZZ-1397",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41840"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND]: Implement UI Treatment for delayed Geo-Location on Standard Betslip"
+                "summary": "[WWW] Missing info on the Active betslip for Correct Score bet offer "
             },
-            "id": "41933",
-            "key": "JAZZ-1395",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41933"
+            "id": "41759",
+            "key": "JAZZ-1392",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41759"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS]: Implement UI Treatment for delayed Geo-Location on Standard Betslip"
+                "summary": "[AND]: Parlay Pop-up should wait for calculating to complete before minimizing"
             },
-            "id": "41932",
-            "key": "JAZZ-1394",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41932"
+            "id": "41818",
+            "key": "JAZZ-1379",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41818"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Deep link to a event page/tab from a promotion"
+                "summary": "[iOS]: Parlay Pop-up should wait for calculating to complete before minimizing "
             },
-            "id": "41622",
-            "key": "JAZZ-1370",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41622"
+            "id": "41817",
+            "key": "JAZZ-1378",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41817"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Deeplink to a bet offer from a promotion"
+                "summary": "[WWW] BSE Redesign Defects "
             },
-            "id": "41536",
-            "key": "JAZZ-1354",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41536"
+            "id": "41695",
+            "key": "JAZZ-1375",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41695"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Deeplink to a bet offer from a promotion"
+                "summary": "[iOS]: Parlay Pop-up animation pops slightly \"up\" after dismissed"
             },
-            "id": "41535",
-            "key": "JAZZ-1353",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41535"
+            "id": "41628",
+            "key": "JAZZ-1372",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41628"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW] Deeplink to a bet offer from a promotion"
+                "summary": "[iOS]: Extra Info appears to be the incorrect Font"
             },
-            "id": "41448",
-            "key": "JAZZ-1349",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41448"
+            "id": "41542",
+            "key": "JAZZ-1355",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41542"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "Update Event Level Categorization of Bet Offers (NBA/NHL)"
+                "summary": "[AND] BSE Redesign Defects"
             },
-            "id": "41028",
-            "key": "JAZZ-1319",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41028"
+            "id": "41355",
+            "key": "JAZZ-1348",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41355"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "Rename Select criterions for NHL & NBA"
+                "summary": "[WWW] Create Querys to Tabs for Homepage, Event Pages, and Live Page"
             },
-            "id": "41026",
-            "key": "JAZZ-1318",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41026"
+            "id": "41278",
+            "key": "JAZZ-1343",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41278"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Tournaments with only futures event should not be displayed on the Golf page"
+                "summary": "[iOS] BSE Redesign Defects "
             },
-            "id": "40712",
-            "key": "JAZZ-1292",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40712"
+            "id": "41277",
+            "key": "JAZZ-1342",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/41277"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "Custom Parlay collapsed while user is viewing details"
+                "summary": "[iOS]  Fix the way we update Betslip database in KMM"
             },
-            "id": "40598",
-            "key": "JAZZ-1291",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40598"
+            "id": "40507",
+            "key": "JAZZ-1261",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40507"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "Preventing user from attempting to wager while being geolocated"
+                "summary": "[WWW]  Fix the way we update Betslip database in KMM"
             },
-            "id": "40846",
-            "key": "JAZZ-1290",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40846"
+            "id": "40506",
+            "key": "JAZZ-1260",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40506"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND]  Update Withdrawal Limit Logic "
+                "summary": "[AND] Fix the way we update Betslip database in KMM"
             },
-            "id": "40819",
-            "key": "JAZZ-1289",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40819"
+            "id": "40505",
+            "key": "JAZZ-1259",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40505"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[WWW]  Update Withdrawal Limit Logic "
+                "summary": "[iOS] Summary drawer disappears from betslip after clearing max wager error"
             },
-            "id": "40818",
-            "key": "JAZZ-1288",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40818"
+            "id": "40450",
+            "key": "JAZZ-1256",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40450"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[IOS] Update Withdrawal Limit Logic "
+                "summary": "[iOS]  Add a deeplink CTA to the promotion detail page "
             },
-            "id": "40817",
-            "key": "JAZZ-1287",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40817"
+            "id": "40315",
+            "key": "JAZZ-1235",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40315"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "Promotion Deeplinking v2 (Event tabs & Bet Offers)"
+                "summary": "[WWW]  Add a deeplink CTA to the promotion detail page "
             },
-            "id": "40143",
-            "key": "JAZZ-1221",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40143"
+            "id": "40314",
+            "key": "JAZZ-1234",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40314"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Implement fallback Icon (New Icon)"
+                "summary": "[AND] Add a deeplink CTA to the promotion detail page "
             },
-            "id": "39857",
-            "key": "JAZZ-1208",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39857"
+            "id": "40313",
+            "key": "JAZZ-1233",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40313"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] Deep link to a event page/tab from a promotion"
+                "summary": "Gathering Bet Offer IDs for Deeplinking "
             },
-            "id": "39609",
-            "key": "JAZZ-1173",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39609"
+            "id": "40158",
+            "key": "JAZZ-1226",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40158"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[AND] Deep link to a event page/tab from a promotion"
+                "summary": "[WWW] URL Generation for Deeplinking Solution "
             },
-            "id": "38590",
-            "key": "JAZZ-1109",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38590"
+            "id": "40157",
+            "key": "JAZZ-1225",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40157"
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "fields": {
-                "summary": "[iOS] [TechDebt] Homepage seems to be \"glitchy\" as user scrolls."
+                "summary": "Prompting users for reviews "
             },
-            "id": "16872",
-            "key": "JAZZ-953",
-            "self": "https://penngineering.atlassian.net/rest/api/3/issue/16872"
+            "id": "40091",
+            "key": "JAZZ-1220",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/40091"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]  Homepage layout items - league end dates"
+            },
+            "id": "39938",
+            "key": "JAZZ-1213",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39938"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW]  Homepage layout items - league end dates"
+            },
+            "id": "39937",
+            "key": "JAZZ-1212",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39937"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND]  Homepage layout items - league end dates"
+            },
+            "id": "39936",
+            "key": "JAZZ-1211",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39936"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Integrate KMM library into app for Evo First Person Mega Ball"
+            },
+            "id": "39775",
+            "key": "JAZZ-1190",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39775"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Integrate KMM library into app for Evo First Person Mega Ball"
+            },
+            "id": "39774",
+            "key": "JAZZ-1189",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39774"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Integrate KMM library into app for Evo First Person Mega Ball"
+            },
+            "id": "39773",
+            "key": "JAZZ-1188",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39773"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] - Cash Required Modal - Minimum Cash Balance "
+            },
+            "id": "39631",
+            "key": "JAZZ-1179",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39631"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] - Cash Required Modal - Minimum Cash Balance "
+            },
+            "id": "39630",
+            "key": "JAZZ-1178",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39630"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Add drop-shadow on League Name upon scroll for Home, Live page"
+            },
+            "id": "39277",
+            "key": "JAZZ-1160",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39277"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]  Implement fallback Icon"
+            },
+            "id": "39267",
+            "key": "JAZZ-1153",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39267"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW]  Implement fallback Icon"
+            },
+            "id": "39266",
+            "key": "JAZZ-1152",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39266"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Implement fallback Icon"
+            },
+            "id": "39265",
+            "key": "JAZZ-1151",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39265"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "Try to stop re-rendering all the events on events list pages"
+            },
+            "id": "19027",
+            "key": "JAZZ-1146",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/19027"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Event Details spacing design fixes"
+            },
+            "id": "39067",
+            "key": "JAZZ-1129",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/39067"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]: Update usage of the EnglishName in the Kambi API"
+            },
+            "id": "38806",
+            "key": "JAZZ-1124",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38806"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Outright card outcomes need to be sorted shortest to longest"
+            },
+            "id": "38795",
+            "key": "JAZZ-1123",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38795"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Cash Required Modal - Minimum Cash Balance "
+            },
+            "id": "38674",
+            "key": "JAZZ-1114",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38674"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] BSE Boost Redesign"
+            },
+            "id": "38579",
+            "key": "JAZZ-1104",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38579"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS]  BSE Boost Redesign"
+            },
+            "id": "38580",
+            "key": "JAZZ-1103",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38580"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] BSE Boost Redesign"
+            },
+            "id": "38578",
+            "key": "JAZZ-1102",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38578"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] League details deep linking bug"
+            },
+            "id": "38027",
+            "key": "JAZZ-1082",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/38027"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Verify KMM/LGP Properties Not in Code Base"
+            },
+            "id": "37997",
+            "key": "JAZZ-1077",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/37997"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW]  Parlay+ segment events"
+            },
+            "id": "37963",
+            "key": "JAZZ-1073",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/37963"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Parlay+ segment events"
+            },
+            "id": "37959",
+            "key": "JAZZ-1070",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/37959"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Adding P+ badging to the LIVE page"
+            },
+            "id": "37745",
+            "key": "JAZZ-1046",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/37745"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "Replace v-btn"
+            },
+            "id": "29000",
+            "key": "JAZZ-978",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/29000"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Investigate deeplinking from the promotion page "
+            },
+            "id": "36567",
+            "key": "JAZZ-965",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36567"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Redesign for Barstool Exclusives Pages"
+            },
+            "id": "36062",
+            "key": "JAZZ-919",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36062"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[iOS] Redesign for Barstool Exclusives Pages"
+            },
+            "id": "36061",
+            "key": "JAZZ-918",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36061"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Redesign for Barstool Exclusives Pages"
+            },
+            "id": "36060",
+            "key": "JAZZ-917",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/36060"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] Implement segment event to differentiate between the Collapse and Display of Stats"
+            },
+            "id": "35626",
+            "key": "JAZZ-885",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/35626"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[WWW] Implement segment event to differentiate between the Collapse and Display of Stats"
+            },
+            "id": "35625",
+            "key": "JAZZ-884",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/35625"
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "fields": {
+                "summary": "[AND] User cannot re-enable Touch ID when logging in repeatedly before timing out due to biometric expiration"
+            },
+            "id": "28400",
+            "key": "JAZZ-338",
+            "self": "https://penngineering.atlassian.net/rest/api/3/issue/28400"
         }
     ],
     "maxResults": 100,
     "startAt": 0,
-    "total": 41
+    "total": 74
 }

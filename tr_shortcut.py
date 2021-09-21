@@ -17,28 +17,6 @@ def get_tr_cases():
 
 def get_testrail_data(cases):
     #cases = get_tr_cases()
-    tc_jira = {}
-    jira_tc = {}
-    cases_length = len(cases)
-
-    # go through test case data
-    for i in range(cases_length):
-        # if test case contains references
-        if cases[i]["refs"] != None:
-            # split references string into a list
-            split_cases = cases[i]["refs"].replace(" ","").split(",")
-            # create a dictionary with key (test case id - string) value (test case references - list) pairs
-            tc_jira[cases[i]["id"]] = split_cases
-            # go through references
-            for j in split_cases:
-                # if dictionary doesn't have an entry for the reference
-                if j not in jira_tc.keys():
-                    # add reference to the dictionary with key (test case reference - string) value (list of test case ids (strings))
-                    jira_tc[j] = [cases[i]["id"]]
-                # if dictionary does have an entry for the reference
-                else:
-                    # append the test case id to the end of the list of test case ids (value of key-value pair)
-                    jira_tc[j].append(cases[i]["id"])
 
     # this is just to help me see what the response from testrail looks like
     with open('./test_text_files/test1.txt', 'w') as f:
@@ -51,6 +29,42 @@ def get_testrail_data(cases):
     f = open("./test_text_files/test2.txt", "w")
     f.write(case)
     f.close()
+
+    tc_jira = {}
+    jira_tc = {}
+    cases_length = len(cases["cases"])
+
+    while cases["_links"]["next"] != None:
+        # go through test case data
+        for i in range(cases_length):
+            # if test case contains references
+            if cases["cases"][i]["refs"] != None:
+                # split references string into a list
+                split_cases = cases["cases"][i]["refs"].replace(" ","").split(",")
+                # create a dictionary with key (test case id - string) value (test case references - list) pairs
+                tc_jira[cases["cases"][i]["id"]] = split_cases
+                # go through references
+                for j in split_cases:
+                    # if dictionary doesn't have an entry for the reference
+                    if j not in jira_tc.keys():
+                        # add reference to the dictionary with key (test case reference - string) value (list of test case ids (strings))
+                        jira_tc[j] = [cases["cases"][i]["id"]]
+                    # if dictionary does have an entry for the reference
+                    else:
+                        # append the test case id to the end of the list of test case ids (value of key-value pair)
+                        jira_tc[j].append(cases["cases"][i]["id"])
+        
+        # fix limit issues
+        email = os.getenv('PI_EMAIL')
+        token = os.getenv('TESTRAIL_TOKEN')
+        
+        client = APIClient('http://hollywoodsports.testrail.io/')
+        client.user = email
+        client.password = token
+
+        offset = cases["offset"] + 250
+        req = f'get_cases/6&offset={offset}'
+        cases = client.send_get(req)
 
     # print all test cases and their references to a text doc
     # prob wanna work on getting this into a dataframe or csv
@@ -67,3 +81,6 @@ def timing_results():
 
     with open('./test_text_files/result.txt', 'a') as r:
         r.write("\n" + str(time) + ", return jira_tc instead of tc_jira")
+
+# tr_cases = get_tr_cases()
+# tc_d = get_testrail_data(tr_cases)
