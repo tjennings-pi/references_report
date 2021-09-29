@@ -3,7 +3,7 @@ import os
 import json
 import datetime
 
-def get_tr_cases():
+def setup_tr_client():
     # variables added to ~/.zshrc file
     email = os.getenv('PI_EMAIL')
     token = os.getenv('TESTRAIL_TOKEN')
@@ -12,11 +12,11 @@ def get_tr_cases():
     client.user = email
     client.password = token
 
-    cases = client.send_get('get_cases/6')
-    return cases
+    return client
 
-def get_testrail_data(cases):
-    #cases = get_tr_cases()
+def get_testrail_data(client):
+    # get test cases from sportsbook project
+    cases = client.send_get('get_cases/6')
 
     # this is just to help me see what the response from testrail looks like
     with open('./test_text_files/test1.txt', 'w') as f:
@@ -53,14 +53,6 @@ def get_testrail_data(cases):
                     else:
                         # append the test case id to the end of the list of test case ids (value of key-value pair)
                         jira_tc[j].append(cases["cases"][i]["id"])
-        
-        # fix limit issues
-        email = os.getenv('PI_EMAIL')
-        token = os.getenv('TESTRAIL_TOKEN')
-        
-        client = APIClient('http://hollywoodsports.testrail.io/')
-        client.user = email
-        client.password = token
 
         offset = cases["offset"] + 250
         req = f'get_cases/6&offset={offset}'
