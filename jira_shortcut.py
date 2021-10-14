@@ -47,6 +47,9 @@ def show_list_get_choice(length, given_list):
    query = ",".join(split)
    return query
 
+
+# Objective of build_user_query: print user instructions & take in responses; use input to call validate_input & show_list_get_choice methods; build query
+# return - user_query - a string of the query to be used in the jira request
 def build_user_query():
    # projects
    projects = ["JAZZ", "STREET", "OP", "RAT"]
@@ -54,12 +57,6 @@ def build_user_query():
    # types (New Feature has to be put in quotes bc JQL requires them when a name contains a space)
    types = ["Bug", "Epic", "Improvement", "Initiative", "\"New Feature\"", "Spike", "Story", "Task"]
    t_length = len(types)
-   # fix versions
-   #  versions = ["Heat", "Ironpigs", "Jaguars", "Koalas", "Llamas", "Magic", "Nuggets", "Otters", "Pirates"]
-   #  v_length = len(versions)
-   # components (AND has to be put in quotes bc AND is a keyword in JQL)
-   components = ["iOS", "\"AND\"", "WWW", "QA"]
-   c_length = len(components)
 
    print("We will now build your filter. Please answer the following prompts.\n")
    
@@ -87,30 +84,21 @@ def build_user_query():
    print("Please enter the fix version you would like to filter by. If more than one, please separate each fix version with a comma (ex: Magic,Nuggets).")
    v_query = input("> ")
 
-
    # get component(s)
-   #print("Below is a list of available components to choose from. Please enter the number(s) corresponding to your choice of component. If more than one, please separate each number with a comma (ex: 1,3,4).")
-   #c_query = show_list_get_choice(c_length, components)
    c_query = "iOS,\"AND\",WWW,QA"
    
-
    # building query
    user_query = f"project in ({p_query}) AND issuetype in ({t_query}) AND fixVersion in ({v_query}) AND component in ({c_query})"
-   # filter_name = input("What would you like to name your filter?\nName:")
-   # project in (JAZZ, OP, RAT, STREET) AND issuetype in (Bug, Improvement) AND fixVersion = Magic AND component in ("AND", iOS, QA, WWW)
    
-
    return user_query
-     
-# Objective of get_jira_data: return tickets and summaries (titles)
-# return value - d - a dictionary of jira tickets:summaries
-def get_jira_data():
+
+# Objective of send_jira_search_request: set up & send jira search request
+# jql_ query - string of the query to be used in the jira request
+# return - response - requests.models.Response aka response from Jira
+def send_jira_search_request(jql_query):
    # variables added to ~/.zshrc file
    email = os.getenv('PI_EMAIL')
    token = os.getenv('JIRA_TOKEN')
-
-   jql_query = build_user_query()
-   
    endpoint = "/rest/api/3/search"
    url = f"https://penngineering.atlassian.net{endpoint}"
 
@@ -120,37 +108,36 @@ def get_jira_data():
       "Accept": "application/json",
       "Content-Type": "application/json"
    }
-
-   '''
-   payload = json.dumps( {
-   "jql": "type = Bug and resolution is empty",
-   "name": "Tamara test filter 1",
-   "description": "Lists all open bugs"
-   } )
-   '''
-
-   # jql_query = "project = JAZZ AND issuetype in (Bug, Improvement, \"New Feature\", Story, Task) AND fixVersion = Magic AND component in (\"AND\", iOS, QA, WWW)"
-   all_results = False # if response contains all results or if it's paginated
-   pointer = 0 # keeps track of page number
-   key_list = []
-   summary_list = []
-   d = {} # dictionary of ticket numbers (keys) and titles/summaries (values)
-
    query = {
       'jql': jql_query,
       'fields': "summary",
       'maxResults': 100
    }
+   response = requests.request(
+      "GET",
+      url,
+      #data=payload,
+      headers=headers,
+      params=query,
+      auth=auth
+   )
+
+   print(type(response))
+
+   return response
+     
+# Objective of get_jira_data: return tickets and summaries (titles)
+# return value - d - a dictionary of jira tickets:summaries
+def get_jira_data():
+   all_results = False # if response contains end of results or if it's paginated
+   pointer = 0 # keeps track of page number
+   key_list = []
+   summary_list = []
+   d = {} # dictionary of ticket numbers (keys) and titles/summaries (values)
+   jql_query = build_user_query()
 
    while all_results == False:
-      response = requests.request(
-         "GET",
-         url,
-         #data=payload,
-         headers=headers,
-         params=query,
-         auth=auth
-      )
+      response = send_jira_search_request(jql_query)
 
       # holder is <class 'dict'>
       holder = json.loads(response.text)
@@ -189,6 +176,7 @@ def get_jira_data():
             'maxResults': 500,
             'startAt': pointer
          }
+
       else:
          all_results = True
          # append page results to lists
