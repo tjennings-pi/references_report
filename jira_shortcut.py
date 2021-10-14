@@ -122,8 +122,6 @@ def send_jira_search_request(jql_query):
       auth=auth
    )
 
-   print(type(response))
-
    return response
      
 # Objective of get_jira_data: return tickets and summaries (titles)
