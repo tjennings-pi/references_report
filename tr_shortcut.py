@@ -14,9 +14,13 @@ def setup_tr_client():
 
     return client
 
-def get_testrail_data(client):
+# Objective of get_testrail_data: return tickets and their linked test cases
+# client - testrail client to make API calls
+# return - jira_tc - a dictionary of jira tickets:linked test cases
+def get_testrail_data(client, project):
     # get test cases from sportsbook project
-    cases = client.send_get('get_cases/6')
+    endpoint = f'get_cases/{project}'
+    cases = client.send_get(endpoint)
 
     # this is just to help me see what the response from testrail looks like
     with open('./test_text_files/test1.txt', 'w') as f:
@@ -32,9 +36,11 @@ def get_testrail_data(client):
 
     tc_jira = {}
     jira_tc = {}
-    cases_length = len(cases["cases"])
+    #cases_length = len(cases["cases"])
+    iterations = 0
 
-    while cases["_links"]["next"] != None:
+    while cases["_links"]["next"] != None or iterations == 0:
+        cases_length = len(cases["cases"])
         # go through test case data
         for i in range(cases_length):
             # if test case contains references
@@ -53,10 +59,15 @@ def get_testrail_data(client):
                     else:
                         # append the test case id to the end of the list of test case ids (value of key-value pair)
                         jira_tc[j].append(cases["cases"][i]["id"])
-
-        offset = cases["offset"] + 250
-        req = f'get_cases/6&offset={offset}'
-        cases = client.send_get(req)
+        
+        iterations +=1
+        if cases["_links"]["next"] != None: 
+            offset = cases["offset"] + 250
+            req = f'get_cases/{project}&offset={offset}'
+            cases = client.send_get(req)
+            # check if next newly loaded cases are the last page
+            if cases["_links"]["next"] == None:
+                iterations = 0
 
     # print all test cases and their references to a text doc
     # prob wanna work on getting this into a dataframe or csv

@@ -89,8 +89,9 @@ def build_user_query():
 
 
    # get component(s)
-   print("Below is a list of available components to choose from. Please enter the number(s) corresponding to your choice of component. If more than one, please separate each number with a comma (ex: 1,3,4).")
-   c_query = show_list_get_choice(c_length, components)
+   #print("Below is a list of available components to choose from. Please enter the number(s) corresponding to your choice of component. If more than one, please separate each number with a comma (ex: 1,3,4).")
+   #c_query = show_list_get_choice(c_length, components)
+   c_query = "iOS,\"AND\",WWW,QA"
    
 
    # building query
@@ -101,7 +102,8 @@ def build_user_query():
 
    return user_query
      
-
+# Objective of get_jira_data: return tickets and summaries (titles)
+# return value - d - a dictionary of jira tickets:summaries
 def get_jira_data():
    # variables added to ~/.zshrc file
    email = os.getenv('PI_EMAIL')
@@ -128,9 +130,8 @@ def get_jira_data():
    '''
 
    # jql_query = "project = JAZZ AND issuetype in (Bug, Improvement, \"New Feature\", Story, Task) AND fixVersion = Magic AND component in (\"AND\", iOS, QA, WWW)"
-   all_results = False
-   pointer = 0
-   counter = 0
+   all_results = False # if response contains all results or if it's paginated
+   pointer = 0 # keeps track of page number
    key_list = []
    summary_list = []
    d = {} # dictionary of ticket numbers (keys) and titles/summaries (values)

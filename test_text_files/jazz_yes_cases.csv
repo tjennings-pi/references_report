@@ -1,0 +1,21 @@
+	Ticket	Link	Summary	Cases
+0	JAZZ-1542	https://penngineering.atlassian.net/browse/JAZZ-1542	[AND]: Top half of homepage does not go up when scrolling through live tab	26248
+1	JAZZ-1491	https://penngineering.atlassian.net/browse/JAZZ-1491	[AND]: Implement Parlay Pop-up on Boost Screen	43233
+2	JAZZ-1490	https://penngineering.atlassian.net/browse/JAZZ-1490	[iOS]: Implement Parlay Pop-up on Boost Screen	43233
+3	JAZZ-1475	https://penngineering.atlassian.net/browse/JAZZ-1475	[WWW] Update bet offer button logic to use the button without opting-in	40618, 43216, 43217
+4	JAZZ-1474	https://penngineering.atlassian.net/browse/JAZZ-1474	[iOS] Update bet offer button logic to use the button without opting-in	40618, 43216, 43217
+5	JAZZ-1473	https://penngineering.atlassian.net/browse/JAZZ-1473	[AND] Update bet offer button logic to use the button without opting-in	40618, 43216, 43217
+6	JAZZ-1437	https://penngineering.atlassian.net/browse/JAZZ-1437	[WWW] Update Opt-in Logic for Cash Required Modal	40625, 40626
+7	JAZZ-1430	https://penngineering.atlassian.net/browse/JAZZ-1430	[iOS]  Pitcher names in the Event page header	43235
+8	JAZZ-1429	https://penngineering.atlassian.net/browse/JAZZ-1429	[WWW]  Pitcher names in the Event page header	43235
+9	JAZZ-1414	https://penngineering.atlassian.net/browse/JAZZ-1414	[AND] Pitcher names in the Event page header	43235
+10	JAZZ-1400	https://penngineering.atlassian.net/browse/JAZZ-1400	[WWW]: Implement UI Treatment for delayed Geo-Location on Quick Pick 6 Wager CTA	46117
+11	JAZZ-1396	https://penngineering.atlassian.net/browse/JAZZ-1396	[WWW]: Implement UI Treatment for delayed Geo-Location on Standard Betslip	45780, 45781
+12	JAZZ-1395	https://penngineering.atlassian.net/browse/JAZZ-1395	[AND]: Implement UI Treatment for delayed Geo-Location on Standard Betslip	45780, 45781
+13	JAZZ-1394	https://penngineering.atlassian.net/browse/JAZZ-1394	[iOS]: Implement UI Treatment for delayed Geo-Location on Standard Betslip	45780, 45781
+14	JAZZ-1370	https://penngineering.atlassian.net/browse/JAZZ-1370	[WWW] Deep link to a event page/tab from a promotion	43219, 43222, 43220, 43223
+15	JAZZ-1354	https://penngineering.atlassian.net/browse/JAZZ-1354	[AND] Deeplink to a bet offer from a promotion	43221, 43224
+16	JAZZ-1349	https://penngineering.atlassian.net/browse/JAZZ-1349	[WWW] Deeplink to a bet offer from a promotion	43221, 43224
+17	JAZZ-1208	https://penngineering.atlassian.net/browse/JAZZ-1208	[AND] Implement fallback Icon (New Icon)	40627
+18	JAZZ-1173	https://penngineering.atlassian.net/browse/JAZZ-1173	[iOS] Deep link to a event page/tab from a promotion	43219, 43222, 43220, 43223
+19	JAZZ-1109	https://penngineering.atlassian.net/browse/JAZZ-1109	[AND] Deep link to a event page/tab from a promotion	43219, 43222, 43220, 43223

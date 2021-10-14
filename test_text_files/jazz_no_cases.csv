@@ -1,0 +1,38 @@
+	Ticket	Link	Summary
+0	JAZZ-1663	https://penngineering.atlassian.net/browse/JAZZ-1663	"[WWW] the ""Turn Off"" button in the first time accept odds change prompt doesn't turn off odds change review"
+1	JAZZ-1652	https://penngineering.atlassian.net/browse/JAZZ-1652	[WWW] Routing to limits page from Timeout Expiry Notification is incorrect
+2	JAZZ-1645	https://penngineering.atlassian.net/browse/JAZZ-1645	"[WWW] user prompted to accept odds change when kambi returns ""STAKE_TOO_LOW"" error"
+3	JAZZ-1643	https://penngineering.atlassian.net/browse/JAZZ-1643	[WWW] Update WH Status Endpoint Response Handling
+4	JAZZ-1642	https://penngineering.atlassian.net/browse/JAZZ-1642	[AND] Update WH Status Endpoint Response Handling
+5	JAZZ-1641	https://penngineering.atlassian.net/browse/JAZZ-1641	[iOS] Update WH Status Endpoint Response Handling
+6	JAZZ-1638	https://penngineering.atlassian.net/browse/JAZZ-1638	Withdrawal Limits V3
+7	JAZZ-1636	https://penngineering.atlassian.net/browse/JAZZ-1636	[WWW] Parlay+ badging showing on NFL & NHL events on live page
+8	JAZZ-1593	https://penngineering.atlassian.net/browse/JAZZ-1593	[iOS] Outcomes/odds in incorrect order for (all criterion?) during LIVE events in Production
+9	JAZZ-1583	https://penngineering.atlassian.net/browse/JAZZ-1583	[iOS] title of bet offer out of view when user views offer from a promo deeplink
+10	JAZZ-1575	https://penngineering.atlassian.net/browse/JAZZ-1575	[AND] Promo deeplink button not showing after user opts in
+11	JAZZ-1568	https://penngineering.atlassian.net/browse/JAZZ-1568	[iOS] White space is appearing between the description and the detailed T&C's on the Promo Details Page 
+12	JAZZ-1566	https://penngineering.atlassian.net/browse/JAZZ-1566	[AND] Stats analytics related crash
+13	JAZZ-1565	https://penngineering.atlassian.net/browse/JAZZ-1565	[WWW]: Upgrade library and use KMM sort order
+14	JAZZ-1564	https://penngineering.atlassian.net/browse/JAZZ-1564	[AND]: Upgrade KMM library to 1.5.7-SNAPSHOT-2065
+15	JAZZ-1563	https://penngineering.atlassian.net/browse/JAZZ-1563	[iOS]: Upgrade KMM library to 1.5.7-SNAPSHOT-2065
+16	JAZZ-1559	https://penngineering.atlassian.net/browse/JAZZ-1559	IndexOutOfBoundsException: Empty list doesn't contain element at index 0.
+17	JAZZ-1557	https://penngineering.atlassian.net/browse/JAZZ-1557	[iOS] Barstool Exclusives showing incorrect color background below offers
+18	JAZZ-1547	https://penngineering.atlassian.net/browse/JAZZ-1547	[WWW] Team Names Flashing for MLB Series Markets on Event Page 
+19	JAZZ-1546	https://penngineering.atlassian.net/browse/JAZZ-1546	[iOS] Verify Location View Sporadically Blocking Wager Button
+20	JAZZ-1497	https://penngineering.atlassian.net/browse/JAZZ-1497	[iOS] Incompatible bet legs error text padding
+21	JAZZ-1482	https://penngineering.atlassian.net/browse/JAZZ-1482	"[WWW] Investigate why ""Couldn't load page"" error would show up on league detail page"
+22	JAZZ-1461	https://penngineering.atlassian.net/browse/JAZZ-1461	[AND]: Update KMM for quickbet to the latest version 
+23	JAZZ-1460	https://penngineering.atlassian.net/browse/JAZZ-1460	[WWW] Missing comma in the cash out button for values greater than $1,000 
+24	JAZZ-1428	https://penngineering.atlassian.net/browse/JAZZ-1428	[WWW]  Pitcher names on Home/League/Live 6-tile event cards
+25	JAZZ-1427	https://penngineering.atlassian.net/browse/JAZZ-1427	[iOS]  Pitcher names on Home/League/Live 6-tile event cards
+26	JAZZ-1413	https://penngineering.atlassian.net/browse/JAZZ-1413	[AND] Pitcher names on Home/League/Live 6-tile event cards
+27	JAZZ-1411	https://penngineering.atlassian.net/browse/JAZZ-1411	[AND] Haptic Feedback Upon Successful Promo Opt-in
+28	JAZZ-1353	https://penngineering.atlassian.net/browse/JAZZ-1353	[iOS] Deeplink to a bet offer from a promotion
+29	JAZZ-1319	https://penngineering.atlassian.net/browse/JAZZ-1319	Update Event Level Categorization of Bet Offers (NBA/NHL)
+30	JAZZ-1318	https://penngineering.atlassian.net/browse/JAZZ-1318	Rename Select criterions for NHL & NBA
+31	JAZZ-1290	https://penngineering.atlassian.net/browse/JAZZ-1290	Preventing user from attempting to wager while being geolocated v1
+32	JAZZ-1289	https://penngineering.atlassian.net/browse/JAZZ-1289	[AND]  Update Withdrawal Limit Logic 
+33	JAZZ-1288	https://penngineering.atlassian.net/browse/JAZZ-1288	[WWW]  Update Withdrawal Limit Logic 
+34	JAZZ-1287	https://penngineering.atlassian.net/browse/JAZZ-1287	[IOS] Update Withdrawal Limit Logic 
+35	JAZZ-1221	https://penngineering.atlassian.net/browse/JAZZ-1221	Promotion Deeplinking v2 (Event tabs & Bet Offers)
+36	JAZZ-953	https://penngineering.atlassian.net/browse/JAZZ-953	"[iOS] [TechDebt] Homepage seems to be ""glitchy"" as user scrolls."
