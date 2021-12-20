@@ -13,10 +13,11 @@ def setup_tr_client():
     client.password = token
 
     return client
-
-# Objective of get_testrail_data: return tickets and their linked test cases
-# client - testrail client to make API calls
-# return - jira_tc - a dictionary of jira tickets:linked test cases
+"""
+Objective of get_testrail_data: return tickets and their linked test cases
+client - testrail client to make API calls
+return - jira_tc - a dictionary of jira tickets:linked test cases
+"""
 def get_testrail_data(client, project):
     # get test cases from sportsbook project
     endpoint = f'get_cases/{project}'

@@ -11,10 +11,12 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-# Objective of validate_input: make sure user input is in the  valid form
-# What is the valid form? n or n,n,...,n; where n is a digit between 0 and upper_bounds minus 1
-# input - user input (string), upper_bounds - number of entries in the selection list (int)
-# return - True|False - boolean representing whether input matches valid form
+"""
+Objective of validate_input: make sure user input is in the  valid form
+What is the valid form? n or n,n,...,n; where n is a digit between 0 and upper_bounds minus 1
+input - user input (string), upper_bounds - number of entries in the selection list (int)
+return - True|False - boolean representing whether input matches valid form
+"""
 def validate_input(input, upper_bounds):
    # reg expression base: ^[0-9](,[0-9]+)*$
    match_string = r'^[0-' + str(upper_bounds-1) + r'](,[0-' + str(upper_bounds-1) + r']+)*$' # reference 1
@@ -25,10 +27,12 @@ def validate_input(input, upper_bounds):
    else:
       return False
 
-# Objective of show_list_get_choice: display list and get user selection with validation
-# Validation takes place in validate_input(input, upper_bounds)
-# length - length of list (int), given_list - list to be displayed to user (array)
-# return - query - a string with list items separated by a comma
+"""
+Objective of show_list_get_choice: display list and get user selection with validation
+Validation takes place in validate_input(input, upper_bounds)
+length - length of list (int), given_list - list to be displayed to user (array)
+return - query - a string with list items separated by a comma
+"""
 def show_list_get_choice(length, given_list):
    # print list items
    for i in range(length):
@@ -47,9 +51,12 @@ def show_list_get_choice(length, given_list):
    query = ",".join(split)
    return query
 
-
-# Objective of build_user_query: print user instructions & take in responses; use input to call validate_input & show_list_get_choice methods; build query
-# return - user_query - a string of the query to be used in the jira request
+"""
+Objective of build_user_query: print user instructions & take in responses; 
+   use input to call validate_input & show_list_get_choice methods; 
+   build query
+return - user_query - a string of the query to be used in the jira request
+"""
 def build_user_query():
    # projects
    projects = ["JAZZ", "STREET", "OP", "RAT"]
@@ -89,12 +96,14 @@ def build_user_query():
    
    # building query
    user_query = f"project in ({p_query}) AND issuetype in ({t_query}) AND fixVersion in ({v_query}) AND component in ({c_query})"
-   
+   #user_query = "project = JAZZ AND \"Epic Link\" = JAZZ-780"
    return user_query
 
-# Objective of send_jira_search_request: set up & send jira search request
-# jql_ query - string of the query to be used in the jira request
-# return - response - requests.models.Response aka response from Jira
+"""
+Objective of send_jira_search_request: set up & send jira search request
+jql_ query - string of the query to be used in the jira request
+return - response - requests.models.Response aka response from Jira
+"""
 def send_jira_search_request(jql_query):
    # variables added to ~/.zshrc file
    email = os.getenv('PI_EMAIL')
@@ -123,9 +132,11 @@ def send_jira_search_request(jql_query):
    )
 
    return response
-     
-# Objective of get_jira_data: return tickets and summaries (titles)
-# return value - d - a dictionary of jira tickets:summaries
+
+"""
+Objective of get_jira_data: return tickets and summaries (titles)
+return value - d - a dictionary of jira tickets:summaries
+"""
 def get_jira_data():
    all_results = False # if response contains end of results or if it's paginated
    pointer = 0 # keeps track of page number

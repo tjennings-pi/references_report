@@ -3,11 +3,13 @@ from tr_shortcut import *
 import datetime
 import pandas as pd
 
-# Objective of get_tc_coverage: go through data and figure out which tickets have test cases and which don't
-# jira_d - dictionary of ticket:summary
-# tr_d - dictionary of ticket:test case ID
-# return - not_complete_df - a dataframe with data about tickets w/out test cases
-# return - complete_df - a dataframe with data about ticket with test cases
+"""
+Objective of get_tc_coverage: go through data and figure out which tickets have test cases and which don't
+jira_d - dictionary of ticket:summary
+tr_d - dictionary of ticket:test case ID
+return - not_complete_df - a dataframe with data about tickets w/out test cases
+return - complete_df - a dataframe with data about ticket with test cases
+"""
 def get_tc_coverage(jira_d, tr_d): 
     temp = jira_d.keys()
     not_compete_df = pd.DataFrame(columns=['Ticket', 'Link', 'Summary'])
