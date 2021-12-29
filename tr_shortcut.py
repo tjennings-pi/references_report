@@ -79,12 +79,13 @@ def get_testrail_data(client, project):
 
 def timing_results():
     start_time = datetime.datetime.now()
-    tr_cases = get_tr_cases()
-    tc_data = get_testrail_data(tr_cases)
+    tr_client = setup_tr_client()
+    # check Sportsbook project for linked cases
+    tc_d_SB = get_testrail_data(tr_client, 6)
     time = datetime.datetime.now() - start_time
 
     with open('./test_text_files/result.txt', 'a') as r:
-        r.write("\n" + str(time) + ", return jira_tc instead of tc_jira")
+        r.write("\n" + str(datetime.date.today()) +" " + str(time) + ", run tr_shortcut.py")
 
-# tr_cases = get_tr_cases()
-# tc_d = get_testrail_data(tr_cases)
+if __name__ == "__main__":
+    timing_results()
