@@ -52,7 +52,8 @@ def show_list_get_choice(length, given_list):
    return query
 
 """
-Objective of build_user_query: print user instructions & take in responses; 
+Objective of build_user_query: 
+   print user instructions & take in responses; 
    use input to call validate_input & show_list_get_choice methods; 
    build query
 return - user_query - a string of the query to be used in the jira request
