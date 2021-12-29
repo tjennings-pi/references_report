@@ -24,36 +24,49 @@ def get_tc_coverage(jira_d, tr_d):
             compete_df = compete_df.append({'Ticket': key, 'Link': link, 'Summary': jira_d[key], 'Cases': case_list}, ignore_index=True)
     return not_compete_df, compete_df
 
-start_time = datetime.datetime.now()
+def compare_results(old, new):
+    pass
 
-# get jira tickets & testrail cases
-jira_d = get_jira_data() # a dictionary of jira tickets:summaries
-if jira_d == 0:
-    exit(0)
-tr_client = setup_tr_client()
-# check Sportsbook project for linked cases
-tc_d_SB = get_testrail_data(tr_client, 6) # a dictionary of jira tickets:linked test cases - sportsbook cross project
+if __name__ == "__main__":
+    start_time = datetime.datetime.now()
 
-no_SB_tcs_df, SB_tcs_df = get_tc_coverage(jira_d, tc_d_SB)
-# check Casino project for linked cases
-if not no_SB_tcs_df.empty:
-    tc_d_CAS = get_testrail_data(tr_client, 8) # a dictionary of jira tickets:linked test cases - casino cross project
-    # convert dataframe columns into a dictionary so it can be passed into get_tc_coverage
-    no_SB_tcs_dict = no_SB_tcs_df.set_index('Ticket').to_dict()['Summary']
+    # get jira tickets & testrail cases
+    jira_d = get_jira_data() # a dictionary of jira tickets:summaries
+    if jira_d == 0:
+        exit(0)
+    #jira data end time
+    jira_time = datetime.datetime.now()
 
-    no_CAS_tcs_df, CAS_tcs_df = get_tc_coverage(no_SB_tcs_dict, tc_d_CAS)
-    tcs_all = pd.concat([SB_tcs_df, CAS_tcs_df], ignore_index=True)
+    tr_client = setup_tr_client()
+    # check Sportsbook project for linked cases
+    tc_d = get_testrail_data(tr_client, 6) # a dictionary of jira tickets:linked test cases - sportsbook cross project
+    #testrail data end time
+    tr_time = datetime.datetime.now()
 
-    # print to csv files - sportsbook & casino
-    tcs_all.to_csv('./test_text_files/jazz_yes_cases.csv', sep='\t')
-    no_CAS_tcs_df.to_csv('./test_text_files/jazz_no_cases.csv', sep='\t')
+    no_tcs_df, tcs_df = get_tc_coverage(jira_d, tc_d)
+    #coverage check end time
+    coverage_time = datetime.datetime.now()
 
-else:
-    # print to csv files - sportsbook only
-    no_SB_tcs_df.to_csv('./test_text_files/jazz_no_cases.csv', sep='\t')
-    SB_tcs_df.to_csv('./test_text_files/jazz_yes_cases.csv', sep='\t')
+    # check Casino project for linked cases
+    if not no_tcs_df.empty:
+        tc_d_CAS = get_testrail_data(tr_client, 8) # a dictionary of jira tickets:linked test cases - casino cross project
+        # convert dataframe columns into a dictionary so it can be passed into get_tc_coverage
+        no_SB_tcs_dict = no_tcs_df.set_index('Ticket').to_dict()['Summary']
+
+        no_tcs_df, CAS_tcs_df = get_tc_coverage(no_SB_tcs_dict, tc_d_CAS)
+        tcs_df = pd.concat([tcs_df, CAS_tcs_df], ignore_index=True)
+
+    # print to csv files
+    no_tcs_df.to_csv('./test_text_files/jazz_no_cases.csv', sep='\t')
+    tcs_df.to_csv('./test_text_files/jazz_yes_cases.csv', sep='\t')
+    
+    #casino check & print to csv end time
+    csv_time = datetime.datetime.now()
 
 
-time = datetime.datetime.now() - start_time
-with open('./test_text_files/result2.txt', 'a') as r:
-        r.write("\n" + str(time) + ", N/A")
+    time = datetime.datetime.now() - start_time
+    with open('./test_text_files/result2.txt', 'a') as r:
+            #r.write("\n" + str(datetime.date.today()) + " " + str(time) + ", N/A")
+            r.write("\n" + str(datetime.date.today()) + " TOTAL: " + str(time) + 
+            ",  Jira time: " + str(jira_time - start_time) + ", TR time: " + str(tr_time - jira_time) + 
+            ", Coverage Time: " + str(coverage_time - tr_time) + ", CSV Time: " + str(csv_time - coverage_time))
